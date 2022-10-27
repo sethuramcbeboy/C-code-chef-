@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+    int t;
+    scanf("%d",&t);
+    
+    while(t--){
+        int a;
+        scanf("%d",&a);
+        if(a >= 300){
+            printf("%d \n",a * 10);
+        }
+        else{
+            printf("%d \n", 3000);
+        }
+    }
+	return 0;
+}
