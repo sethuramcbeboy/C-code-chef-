@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	while(t--){
+	    int a,b,c;
+	    scanf("%d",&a);
+	    scanf("%d",&b);
+	    scanf("%d",&c);
+	    if(a>b && a>c){
+	        printf("Alice");
+	    }
+	    else{
+	        if(b>a && b>c){
+	            printf("Bob");
+	        }
+	        else{
+	            printf("Charlie");
+	        }
+	    }
+	    printf("\n");
+	    }
+	return 0;
+}
+
