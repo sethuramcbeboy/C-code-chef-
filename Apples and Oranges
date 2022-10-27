@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	int x,a,b;
+	scanf("%d \n",&x);
+	scanf("%d%d",&a,&b);
+	if(x>= (a+b)){
+	    printf("YES");
+	}
+	else{
+	    printf("NO");
+	}
+	printf("\n");
+	return 0;
+}
